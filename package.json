@@ -9,5 +9,8 @@
     "scripts": {
         "start": "node app.js",
         "watch": "nodemon --ext js,ejs --ignore public"
-    }
+    }, "engines": {
+"node": 16.11.1
+        "npm" : 8.0.0
+}
 }
