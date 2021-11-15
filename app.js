@@ -20,7 +20,7 @@ liveReloadServer.server.once("connection", () => {
 const mongoose = require('mongoose');
 mongoose.connect("mongodb+srv://ahmeddahees:2468@cluster0.20l5d.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
     .then((result) => {
-        console.log(`Example app listening at http://localhost:${port}`)
+const PORT = process.env.PORT || 3005;
     }).catch((err) => {
         consol.log(err);
     });
